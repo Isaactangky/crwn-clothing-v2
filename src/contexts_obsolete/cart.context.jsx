@@ -46,7 +46,6 @@ const INITAIL_STATE = {
   cartTotal: 0,
 };
 const cartReducer = (state, action) => {
-  const { isCartOpen, cartItems, cartCount, cartTotal } = state;
   const { type, payload } = action;
   switch (type) {
     case CART_ACTION_TYPES.SET_IS_CART_OPEN:
