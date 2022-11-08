@@ -21,8 +21,7 @@ export const fetchCategoriesFailure = (error) =>
 //     dispatch(fetchCategoriesStart());
 //     try {
 //       const categoriesArray = await getCategoriesAndDocuments();
-//       console.log("123");
-//       console.log(categoriesArray);
+
 //       dispatch(fetchCategoriesSuccess(categoriesArray));
 //     } catch (error) {
 //       dispatch(fetchCategoriesFailure(error));

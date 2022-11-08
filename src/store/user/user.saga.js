@@ -56,7 +56,6 @@ export function* signInWithEmail(action) {
   const {
     payload: { email, password },
   } = action;
-  console.log(email, password);
   try {
     const { user } = yield call(
       singInAuthUserWithEmailAndPassword,
