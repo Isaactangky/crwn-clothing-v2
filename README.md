@@ -1,10 +1,16 @@
 # Crwn Clothing - e-commerce application - React Project
 
-"Crwn Clothing" is the capstone project of [React Course by Andrei Neagoie](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/). This course is a comprehensive online resource on React. This project based course introduced me to the modern toolchain of a React developer. Along the way, I build this massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Router, Context API, Firebase, Redux-Saga, Stripe and more.
+"Crwn Clothing" is the capstone project of [React Course by Andrei Neagoie](https://www.udemy.com/course/complete-react-developer-zero-to-mastery/). This course is a comprehensive online resource on React. This project based course introduced me to the modern toolchain of a React developer.
+
+Along the way, I build this massive e-commerce application similar to Shopify using React, Redux, React Hooks, React Router, Context API, Firebase, Redux-Saga, Stripe and more.
 
 ![screenshoot](Screenshot-Crwn-Clothing.png?raw=true)
 
 ## Overview
+
+### Links
+
+- Live Site URL: [Crwn Clothing](https://crwn-clothing-isaactangky.netlify.app)
 
 ### The challenge
 
@@ -18,10 +24,6 @@ Users should be able to:
 - Add product to shopping cart
 - Go to "Checkout" page by clicking "checkout" button on cart dropdown
 - Persist cart record even a user close the session
-
-### Links
-
-- Live Site URL: [Crwn Clothing](https://crwn-clothing-isaactangky.netlify.app)
 
 ## My process
 
@@ -37,12 +39,10 @@ Users should be able to:
 - React-Saga
 - GitHub
 - [Firebase Authentication & Firestore Database](https://firebase.google.com/)
-- Model-View-Controller Pattern
-- OOP
 
 ### Development process
 
-#### Routes
+1. Routes
 
 Since Navigation component is diplayed in every route, other route components are put in the Outlet of Navigation.
 
@@ -57,13 +57,13 @@ Since Navigation component is diplayed in every route, other route components ar
 </Routes>
 ```
 
-#### CSS in JS
+2. CSS in JS
 
 As more components are added, **class name clash** becomes a issue in writing SASS codes. Styled Component is introduced to add unique class names for components.
 
 An alternative to Styled Component is CSS modules, I prefer to use CSS modules in future projects as we can have meaningful values instead of random hash values as class names. Inside component JSX files, I also prefer to have pure html tags instead of Styled Component tags.
 
-#### State Management
+3. State Management
 
 ##### From Context to Redux
 
@@ -98,5 +98,5 @@ Using Redux Saga requires a much more complicated setup, but by migrating from T
 
 ### Continued development
 
-- Adding Stripe for payment
 - Handling errors
+- Adding responsive designs
