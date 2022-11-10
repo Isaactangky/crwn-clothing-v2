@@ -22,3 +22,8 @@ export const selectCartTotal = createSelector([selectCartItems], (cartItems) =>
     0
   )
 );
+
+export const selectIsCheckout = createSelector(
+  [selectCartReducer],
+  (cart) => cart.isCheckout
+);

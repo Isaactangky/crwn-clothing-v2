@@ -17,3 +17,11 @@ export const PaymentButton = styled(Button)`
   margin-left: auto;
   margin-top: 30px;
 `;
+
+export const TestMessage = styled.p`
+  padding: 0px 100px;
+  font-weight: bold;
+  text-align: center;
+  color: red;
+  margin-bottom: 30px;
+`;

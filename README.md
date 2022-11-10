@@ -100,3 +100,4 @@ Using Redux Saga requires a much more complicated setup, but by migrating from T
 
 - Handling errors
 - Adding responsive designs
+- Adding user order page

@@ -21,11 +21,12 @@
   .quantity,
   .price {
     width: 23%;
+    text-align: center;
   }
 
   .quantity {
     display: flex;
-    // justify-content: center;
+    justify-content: center;
     .arrow {
       cursor: pointer;
     }
